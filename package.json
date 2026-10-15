@@ -1,0 +1,25 @@
+
+{
+  "name": "hardtech-market",
+  "version": "1.0.0",
+  "description": "Tienda online de componentes de hardware",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["hardware", "tienda", "tecnologia"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "pg": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
